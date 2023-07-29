@@ -13,3 +13,7 @@ done
 cd $CURRENT
 
 rm -rf $TMPDIR
+
+mkdir -p ~/.config/
+
+cp ~/.dotfiles/init.vim ~/.config/nvim
